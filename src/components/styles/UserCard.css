@@ -1,0 +1,26 @@
+.card_container {
+  display: flex;
+  flex-direction: column;
+  border: solid hsl(200, 100%, 50%) thin;
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+  max-width: 30vw;
+  border-radius: 10px;
+}
+
+.card_buttons_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  min-width: 35%;
+  background: hsl(200, 70%, 95%);
+}
+
+.button:hover {
+  transition: ease 0.8s;
+  background: hsl(200, 100%, 50%);
+}
